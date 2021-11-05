@@ -1,4 +1,3 @@
-/* the styles for the elements */
 * {
     margin: 0;
     padding: 0;
@@ -24,7 +23,6 @@ a:hover {
     font-style: italic;
 }
 
-/* the styles for the header */
 header {
     border-bottom: 3px solid #931420;
     padding-top: 1.5em;
@@ -52,7 +50,7 @@ header h3 {
 .shadow {
     text-shadow: 2px 2px 2px #800000;
 }
-/* the styles for the section */
+
 main {
     clear: left;
 }
@@ -95,15 +93,16 @@ section h2 {
 
 article {
     padding: .5em 0;
-    border-top: 2px solid #800000;
-    border-bottom: 2px solid #800000;
+
 }
 
 article h2 {
     padding-top: 0;
+    color: #800000;
 }
 
 article h3 {
+    color: black;
     font-size: 105%;
     padding-bottom: .25em;
 }
